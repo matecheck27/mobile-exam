@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_general">
+
+        <ImageView
+            android:id="@+id/iv_product_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/tv_product_name"
+            app:layout_constraintEnd_toEndOf="@+id/tv_product_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_product_name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_laptop_mac_black" />
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_name"
+            app:layout_constraintBottom_toTopOf="@+id/tv_product_price"
+            app:layout_constraintEnd_toEndOf="@+id/tv_product_price"
+            app:layout_constraintStart_toStartOf="@+id/tv_product_price"
+            app:layout_constraintTop_toBottomOf="@+id/iv_product_image" />
+
+        <TextView
+            android:id="@+id/tv_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/label_product_price"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_product_name" />
+
+
+        <ImageView
+            android:id="@+id/iv_btn_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_product_price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_product_image"
+            app:srcCompat="@drawable/ic_close" />
+
+    </android.support.constraint.ConstraintLayout>
+
+   <!-- <ImageView
+        android:id="@+id/iv_2nd_line"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layerType="software"
+        android:layout_marginBottom="@dimen/padding_2"
+        app:srcCompat="@drawable/dotted_line"/>-->
+
+</LinearLayout>

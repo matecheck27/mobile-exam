@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Loading..."/>
+
+</LinearLayout>
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        &lt;!&ndash;<ProgressBar&ndash;&gt;
+            &lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;
+            &lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;
+
+        <com.nttdata.com.islavelocity.Shared.CustomView.CustomLoadingDots
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:LoadingDots_auto_play="true"
+            app:LoadingDots_dots_count="3"
+            app:LoadingDots_dots_size="20dp"
+            app:LoadingDots_dots_space="10dp"
+            app:LoadingDots_loop_duration="1000"
+            app:LoadingDots_jump_duration="400"
+            app:LoadingDots_jump_height="30dp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:visibility="gone"
+            android:text="Loading..."/>
+
+    </LinearLayout>
+    -->

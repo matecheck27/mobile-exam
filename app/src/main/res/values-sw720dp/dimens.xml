@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item name="gl_v_20" format="float" type="integer">.20</item>
+
+    <dimen name="dimen_radius">10dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+
+    <dimen name="constrain">0dp</dimen>
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_general">10dp</dimen>
+    <dimen name="margin_top_small">10dp</dimen>
+    <dimen name="margin_top_small_plus">15dp</dimen>
+    <dimen name="margin_top_medium">25dp</dimen>
+    <dimen name="margin_top_medium_plus">30dp</dimen>
+
+    <dimen name="image_min_width_height">100dp</dimen>
+    <dimen name="label_product_name_medium">16sp</dimen>
+
+</resources>
